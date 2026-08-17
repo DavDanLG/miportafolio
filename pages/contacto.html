@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | David Daniel Leon Garcia</title>
+  <link rel="icon" type="image/png" href="../assets/img/Logo.png">
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/contacto.css">
+</head>
+<body>
+  <div id="header"></div>
+
+  <main>
+    <section class="contacto">
+      <h2>Contáctame</h2>
+
+      <div class="contacto-grid">
+        <form id="contact-form" action="https://formsubmit.co/uni.pit.davdanleogar@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde tu portafolio">
+          <input type="hidden" name="_captcha" value="0">
+          <input type="hidden" name="_next" value="">
+
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="name" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="email" placeholder="tu@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="message" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+
+        <div class="info">
+          <h3>Información de contacto</h3>
+          <div class="contact-list">
+            <a class="contact-item" href="https://wa.me/51935021718" target="_blank" rel="noopener">
+              <span class="contact-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </span>
+              <span class="contact-item__text">WhatsApp<br><small>+51 935 021 718</small></span>
+            </a>
+
+            <a class="contact-item" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+              <span class="contact-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </span>
+              <span class="contact-item__text">LinkedIn<br><small>Perfil profesional</small></span>
+            </a>
+
+            <a class="contact-item" href="https://www.bumeran.com.pe/" target="_blank" rel="noopener">
+              <span class="contact-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </span>
+              <span class="contact-item__text">Bumeran<br><small>Hoja de vida</small></span>
+            </a>
+
+            <a class="contact-item" href="mailto:uni.pit.davdanleogar@gmail.com">
+              <span class="contact-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <span class="contact-item__text">Correo<br><small>uni.pit.davdanleogar@gmail.com</small></span>
+            </a>
+
+            <div class="contact-item contact-item--static">
+              <span class="contact-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span class="contact-item__text">Ubicación<br><small>Perú - Lima</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/form.js"></script>
+</body>
+</html>
